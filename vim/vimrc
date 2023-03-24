@@ -1,0 +1,8 @@
+syntax on
+filetype indent on
+set smartindent
+set nu rnu
+
+autocmd BufRead,BufWritePre *.html normal gg=G
+
+autocmd Filetype html nnoremap <leader>c I<!-- <esc>A --><esc>
