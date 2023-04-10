@@ -10,3 +10,8 @@ ln -s $DOTFILES/tmux/tmux.conf $HOME/.tmux.conf
 
 rm -rf $HOME/.vimrc
 ln -s $DOTFILES/vim/vimrc $HOME/.vimrc
+
+rm -rf $HOME/.oh-my-zsh/custom/themes/wezm+.zsh-theme 
+ln -s $DOTFILES/omzthemes/wezm+.zsh-theme $HOME/.oh-my-zsh/custom/themes/wezm+.zsh-theme 
+
+cat $DOTFILES/gnome-terminal/gterminal.preferences | dconf load /org/gnome/terminal/legacy/profiles:/

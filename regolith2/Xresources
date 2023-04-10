@@ -1,0 +1,4 @@
+!regolith.look.path: /usr/share/regolith-look/default
+regolith.look.path: /usr/share/regolith-look/gruvbox
+i3-wm.gaps.inner.size: 0
+
